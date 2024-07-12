@@ -1,3 +1,4 @@
+import { useState,useEffect } from "react";
 export default function PrograssBar({timer}) {
   const [remainingTime, setRemainingTime] = useState(timer);
   useEffect(() => {

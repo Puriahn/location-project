@@ -30,6 +30,7 @@ function App() {
   }, []);
 
   function handleStartRemovePlace(id) {
+    console.log('ssssss')
     setIsOpen(true);
     selectedPlace.current = id;
   }
